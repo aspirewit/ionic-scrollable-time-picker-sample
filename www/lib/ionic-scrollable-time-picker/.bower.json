@@ -1,0 +1,35 @@
+{
+  "name": "ionic-scrollable-time-picker",
+  "homepage": "https://github.com/aspirewit/ionic-scrollable-time-picker",
+  "authors": [
+    "Richard Li <aspirewit@gmail.com>"
+  ],
+  "description": "A scrollable time picker for ionic framework applications",
+  "main": "./dist/ionic-scrollable-time-picker.bundle.min.js",
+  "keywords": [
+    "ionic",
+    "scrollable",
+    "time picker"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ionic": "^1.3.2"
+  },
+  "_release": "7bf9e135a3",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "7bf9e135a31f58e29f280fec3a89c5aa01a6253b"
+  },
+  "_source": "https://github.com/aspirewit/ionic-scrollable-time-picker.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/aspirewit/ionic-scrollable-time-picker.git",
+  "_direct": true
+}
