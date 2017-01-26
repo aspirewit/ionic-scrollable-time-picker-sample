@@ -23,7 +23,7 @@ angular.module('starter', ['ionic', 'ionic-scrollable-time-picker', 'starter.con
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider, ionicScrollableTimePickerProvider) {
 
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
@@ -73,4 +73,9 @@ angular.module('starter', ['ionic', 'ionic-scrollable-time-picker', 'starter.con
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/dash');
 
+  ionicScrollableTimePickerProvider.configTimePicker({
+    callback: function(date) {
+      console.log('Selected Date:' + date.toString());
+    }
+  });
 });
