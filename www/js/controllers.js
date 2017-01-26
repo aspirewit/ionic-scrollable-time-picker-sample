@@ -6,19 +6,12 @@ angular.module('starter.controllers', [])
       setButtonText: 'Ok',
       closeButtonText: 'Cancel',
       format: 12,
-      initialDate: new Date(2016, 11, 30, 11, 40),
-      callback: function(date) {
-        console.log('Selected Date:' + date.toString());
-      }
+      initialDate: new Date(2016, 11, 30, 11, 40)
     });
   };
 
   $scope.open24HourTimePicker = function() {
-    ionicScrollableTimePicker.openTimePicker({
-      callback: function(date) {
-        console.log('Selected Date:' + date.toString());
-      }
-    });
+    ionicScrollableTimePicker.openTimePicker();
   };
 })
 
